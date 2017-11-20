@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27004.2009
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DS_CD3", "DS_CD3\DS_CD3.csproj", "{CE0587DB-9854-47B4-AFE3-37F11CC30DC1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CodingDojo3DataLib", "..\..\..\Studium, Aus- und Weiterbildung\fh technikum_ba\3_swad\DS\CodingDojo3DataLib\CodingDojo4DataLib\CodingDojo3DataLib.csproj", "{A0B456AD-88EF-42C7-841F-01F2629787DB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{CE0587DB-9854-47B4-AFE3-37F11CC30DC1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CE0587DB-9854-47B4-AFE3-37F11CC30DC1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CE0587DB-9854-47B4-AFE3-37F11CC30DC1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CE0587DB-9854-47B4-AFE3-37F11CC30DC1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A0B456AD-88EF-42C7-841F-01F2629787DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A0B456AD-88EF-42C7-841F-01F2629787DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A0B456AD-88EF-42C7-841F-01F2629787DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A0B456AD-88EF-42C7-841F-01F2629787DB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A9D40203-F41B-4754-959A-69237A399902}
+	EndGlobalSection
+EndGlobal
