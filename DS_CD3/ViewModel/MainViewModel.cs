@@ -57,7 +57,7 @@ namespace DS_CD3.ViewModel
         public string Filter
         {
             get { return filter; }
-            set { filter = value; RaisePropertyChanged(); }
+            set { filter = value; RaisePropertyChanged(); /*FilterData();*/ } //filtert sofort, ohne Button
         }
 
         public MainViewModel()
@@ -71,7 +71,7 @@ namespace DS_CD3.ViewModel
             currencies.Add("GBP");
             */
 
-            BtnDeleteClicked = new RelayCommand(() => items.Remove(selectedItem), () => { return selectedItem != null; });
+            BtnDeleteClicked = new RelayCommand(() => FilteredItems.Remove(selectedItem), () => { return selectedItem != null; });
             BtnFilterClicked = new RelayCommand(FilterData);
         }
 
